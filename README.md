@@ -1,0 +1,3 @@
+Observer.js works around 2 different turrets. One front turret and one back turret. They are firing whenever one of the two is triggered. So when Front Turret is in this instance ready it will say "Front Turret is firing". Same goes for the back Turret. If one of them is unready, that specific turret will not fire.
+
+Than in Stategy.js we have the turrets that both have a calculation bound to them. In this calcualtion the dropoff and firerate are taken into consideration.
